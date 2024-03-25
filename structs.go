@@ -22,7 +22,7 @@ func (u *user) clearUserName() {
 	u.firstName = ""
 	u.lastName = ""
 	u.birthDate = ""
-	fmt.Print("Cleaned")
+	fmt.Print("bye")
 }
 
 func newUser(firstName, lastName, birthDate string) (*user, error) {
@@ -62,6 +62,6 @@ func main() {
 func getUserData(promptText string) string {
 	fmt.Print(promptText)
 	var value string
-	fmt.Scan(&value)
+	fmt.Scanln(&value)
 	return value
 }
