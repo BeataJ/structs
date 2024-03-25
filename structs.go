@@ -22,9 +22,9 @@ func main() {
 
 	admin := user.NewAdmin("test@test.com", "test123")
 
-	admin.User.OutputUserDetails()
-	admin.User.ClearUserName()
-	admin.User.OutputUserDetails()
+	admin.OutputUserDetails()
+	admin.ClearUserName()
+	admin.OutputUserDetails()
 
 	// ... do something awesome with that gathered data!
 
